@@ -8,13 +8,13 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 @JsonInclude(JsonInclude.Include.NON_EMPTY)
 public class AuthenticationResponse {
 
-  @JsonProperty("access_token")
+ // @JsonProperty("access_token")
   private String accessToken;
-  @JsonProperty("refresh_token")
+  //@JsonProperty("refresh_token")
   private String refreshToken;
-  @JsonProperty("mfa_enabled")
+  //@JsonProperty("mfa_enabled")
   private boolean mfaEnabled;
-  @JsonProperty("secret_image_uri")
+  //@JsonProperty("secret_image_uri")
   private String secretImageUri;
   
   public String getSecretImageUri() {

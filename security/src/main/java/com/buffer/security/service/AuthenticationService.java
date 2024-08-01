@@ -142,7 +142,7 @@ public class AuthenticationService {
         AuthenticationResponse authResponse =new AuthenticationResponse();
         authResponse.setAccessToken(accessToken);
         authResponse.setRefreshToken(refreshToken);
-              
+        authResponse.setMfaEnabled(false); 
         new ObjectMapper().writeValue(response.getOutputStream(), authResponse);
       }
     }
