@@ -22,3 +22,13 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+security/.classpath
+security/.project
+security/.settings/org.eclipse.core.resources.prefs
+security/.settings/org.eclipse.jdt.apt.core.prefs
+security/.settings/org.eclipse.jdt.core.prefs
+security/.settings/org.eclipse.m2e.core.prefs
+security/target/classes/META-INF/maven/com.buffer/security/pom.properties
+security/target/classes/META-INF/maven/com.buffer/security/pom.xml
+security/target/classes/META-INF/maven/com.buffer/security/pom.properties
+security/target/classes/META-INF/maven/com.buffer/security/pom.xml
